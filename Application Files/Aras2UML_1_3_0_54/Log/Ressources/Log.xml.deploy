@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="LogFormat.xsl" type="text/xsl"?>
+<activity_log>
+  <Activity>
+    <activity_type>Success</activity_type>
+    <TimeStamp>20/01/2010 19:53:38</TimeStamp>
+    <activity_name>Successfull login</activity_name>
+    <activity_Description>Utilisateur = admin</activity_Description>
+  </Activity>
+  <Activity>
+    <activity_type>Success</activity_type>
+    <TimeStamp>20/01/2010 19:53:38</TimeStamp>
+    <activity_name>Successfull login</activity_name>
+    <activity_Description>Utilisateur = admin</activity_Description>
+  </Activity>
+  <Activity>
+    <activity_type>Success</activity_type>
+    <TimeStamp>20/01/2010 19:54:39</TimeStamp>
+    <activity_name>Successfull login</activity_name>
+    <activity_Description>Utilisateur = admin</activity_Description>
+  </Activity>
+  <Activity>
+    <activity_type>Success</activity_type>
+    <TimeStamp>20/01/2010 19:54:39</TimeStamp>
+    <activity_name>Successfull login</activity_name>
+    <activity_Description>Utilisateur = admin</activity_Description>
+  </Activity>
+  <Activity>
+    <activity_type>Success</activity_type>
+    <TimeStamp>20/01/2010 19:54:43</TimeStamp>
+    <activity_name>Successfull login</activity_name>
+    <activity_Description>Utilisateur = admin</activity_Description>
+  </Activity>
+  <Activity>
+    <activity_type>Success</activity_type>
+    <TimeStamp>20/01/2010 19:54:43</TimeStamp>
+    <activity_name>Successfull login</activity_name>
+    <activity_Description>Utilisateur = admin</activity_Description>
+  </Activity>
+  <Activity>
+    <activity_type>Success</activity_type>
+    <TimeStamp>20/01/2010 19:54:46</TimeStamp>
+    <activity_name>Successfull login</activity_name>
+    <activity_Description>Utilisateur = admin</activity_Description>
+  </Activity>
+  <Activity>
+    <activity_type>Success</activity_type>
+    <TimeStamp>20/01/2010 19:54:46</TimeStamp>
+    <activity_name>Successfull login</activity_name>
+    <activity_Description>Utilisateur = admin</activity_Description>
+  </Activity>
+  <Activity>
+    <activity_type>Success</activity_type>
+    <TimeStamp>20/01/2010 19:58:33</TimeStamp>
+    <activity_name>Successfull login</activity_name>
+    <activity_Description>Utilisateur = admin</activity_Description>
+  </Activity>
+  <Activity>
+    <activity_type>Success</activity_type>
+    <TimeStamp>20/01/2010 19:58:33</TimeStamp>
+    <activity_name>Successfull login</activity_name>
+    <activity_Description>Utilisateur = admin</activity_Description>
+  </Activity>
+  <Activity>
+    <activity_type>information</activity_type>
+    <TimeStamp>20/01/2010 19:58:33</TimeStamp>
+    <activity_name>Récupération des projets</activity_name>
+    <activity_Description>0101010101</activity_Description>
+  </Activity>
+  <Activity>
+    <activity_type>Success</activity_type>
+    <TimeStamp>20/01/2010 21:48:00</TimeStamp>
+    <activity_name>Successfull login</activity_name>
+    <activity_Description>Utilisateur = admin</activity_Description>
+  </Activity>
+  <Activity>
+    <activity_type>Success</activity_type>
+    <TimeStamp>20/01/2010 21:48:00</TimeStamp>
+    <activity_name>Successfull login</activity_name>
+    <activity_Description>Utilisateur = admin</activity_Description>
+  </Activity>
+  <Activity>
+    <activity_type>information</activity_type>
+    <TimeStamp>20/01/2010 21:48:00</TimeStamp>
+    <activity_name>Récupération des projets</activity_name>
+    <activity_Description>Résultat:</activity_Description>
+  </Activity>
+  <Activity>
+    <activity_type>Success</activity_type>
+    <TimeStamp>20/01/2010 21:48:04</TimeStamp>
+    <activity_name>Successfull login</activity_name>
+    <activity_Description>Utilisateur = admin</activity_Description>
+  </Activity>
+  <Activity>
+    <activity_type>Success</activity_type>
+    <TimeStamp>20/01/2010 21:48:11</TimeStamp>
+    <activity_name>Successfull login</activity_name>
+    <activity_Description>Utilisateur = admin</activity_Description>
+  </Activity>
+  <Activity>
+    <activity_type>Success</activity_type>
+    <TimeStamp>20/01/2010 21:48:12</TimeStamp>
+    <activity_name>Successfull login</activity_name>
+    <activity_Description>Utilisateur = admin</activity_Description>
+  </Activity>
+  <Activity>
+    <activity_type>Success</activity_type>
+    <TimeStamp>20/01/2010 21:48:13</TimeStamp>
+    <activity_name>Successfull login</activity_name>
+    <activity_Description>Utilisateur = admin</activity_Description>
+  </Activity>
+</activity_log>

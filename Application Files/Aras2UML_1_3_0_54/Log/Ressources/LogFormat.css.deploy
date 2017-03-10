@@ -1,0 +1,82 @@
+﻿body 
+{
+    background-color: #EEEEFF;
+}
+
+#box-table-a
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+	margin-top: 45px;
+	text-align: left;
+	border-collapse: collapse;
+	margin-left:auto;
+	margin-right:auto;
+}
+#box-table-a th
+{
+	font-size: 13px;
+	font-weight: normal;
+	padding: 8px;
+	background:#225;
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	color: #FFF;
+}
+#box-table-a td
+{
+	padding: 8px;
+	background: #eef; 
+	border-bottom: 1px solid #fff;
+	color: #003;
+	border-top: 1px solid transparent;
+}
+#box-table-a tr:hover td
+{
+	background: #567;
+	color: #ddd ;
+}
+
+
+.logo
+{
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;  
+}
+
+#box-table-a td.Success_desc
+{
+    
+    background-color:#021;
+    font-size:x-small;
+}
+#box-table-a td.Error_desc
+{
+   
+    background-color:#512;
+    font-size:x-small;
+}
+#box-table-a td.Info_desc
+{
+    
+    background-color:#eef;
+    font-size:x-small;
+}
+
+#box-table-a td.Success
+{
+    background-color:#dfe;
+}
+#box-table-a td.Error
+{
+    background-color:#512;
+}
+#box-table-a td.Info
+{
+    background-color:#eef;
+}
+table
+{
+ table-layout:fixed;
+}

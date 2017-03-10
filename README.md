@@ -3,14 +3,11 @@
 
 >*For current projects, please visit the new Aras Community Projects page on the updated Aras Community site: http://community.aras.com/projects*
 
-# Add Item Link URL to Property Dialog
+# AML2UML
 
-This project adds Item link url field to standard property dialog for any items.
+Initial aim of this project is to make an utility that read the Aras Innovator DataModel and translate it into an UML graph.
 
-You can easily get the link url like http://hostname/InnovatorServer/Client/default.aspx?StartItem=Part:XXXXXX.
-
-![Customized Part Form](./Screenshots/screenshot.JPG)
-###### *The Item Properties dialog, modified to show the selected item's URL.*
+For a faster development we just translated it into XMI which is the XML for UML. It's XMI 1.1 which means that most of the newest commercial software can't import it (they request XMI 2.0 at least). But we use StarUML to import it and then generate Class Diagrams.
 
 ## History
 
@@ -18,17 +15,13 @@ Release notes/descriptions for the original project posted on the previous Aras 
 
 Release | Notes
 --------|--------
-[v11.6](https://github.com/ArasLabs/add-url-to-property-dialog/releases/tag/11.6.0) | Support version 11SP6. Instructions are described in the [Documentation/ReadMe-Add Item URL with propsDialog.pdf](Documentation/ReadMe-Add%20Item%20URL%20with%20propsDialog.pdf).
-[v11.5](https://github.com/ArasLabs/add-url-to-property-dialog/releases/tag/11.5.0) | Support version 11SP5. Instructions are described in the [Documentation/ReadMe-Add Item URL with propsDialog.pdf](Documentation/ReadMe-Add%20Item%20URL%20with%20propsDialog.pdf).
-[v9.4](https://github.com/ArasLabs/add-url-to-property-dialog/releases/tag/9.4.0) | Build v9.4 is the first version. Instructions are described in the [Documentation/Add Item URL with propsDialog-ReadMe-Japanese.pdf](Documentation/Add%20Item%20URL%20with%20propsDialog-ReadMe-Japanese.pdf).
+[v2.0](https://github.com/ArasLabs/aml-2-uml/releases/tag/v2.0) | First Version of Aras2XMI, Sources delivered upon request.
 
 #### Supported Aras Versions
 
 Project | Aras
 --------|------
-[v11.6](https://github.com/ArasLabs/add-url-to-property-dialog/releases/tag/11.6.0) | 11 SP6
-[v11.5](https://github.com/ArasLabs/add-url-to-property-dialog/releases/tag/11.5.0) | 11 SP5
-[v9.4](https://github.com/ArasLabs/add-url-to-property-dialog/releases/tag/9.4.0) | 9.4 SPx
+[v2.0](https://github.com/ArasLabs/aml-2-uml/releases/tag/v1.0) | Aras 9.1, 9.2, 9.3
 
 
 > ###### *Please note: Aras Community Projects are provided on an "as-is" basis.*
@@ -39,10 +32,12 @@ Project | Aras
 
 ## Credits
 
-**Project Owner:** NEOSYSTEM CO. Ltd.
+**Project Owner:** Thomas Skogen
 
-**Original Idea:** NEOSYSTEM CO. Ltd.
+**Original Idea:** Yoann Maingon
 
-**Created On:** April 16, 2014
+**Created On:** October 8, 2009
 
 ## License
+
+This project is published under the Microsoft Public License license (MS-PL). See the [LICENSE file](./LICENSE.md) for license rights and limitations.

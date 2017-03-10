@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+    xmlns:msxsl="urn:schemas-microsoft-com:xslt" exclude-result-prefixes="msxsl"
+>
+  
+  <xsl:template match="/">
+
+    <html>
+      <head>
+        <link rel="stylesheet" type="text/css" href="LogFormat.css"/>
+        <title>
+          Fichier de Log - Deposit Station
+        </title>
+      </head>
+      <body >
+      
+        <div class="logo">
+          <img src="img/DebugReportHeader.png" alt=""/>
+        </div>
+        <div class="logo">
+        <table id="box-table-a" width="100%" >
+          <thead>
+            <tr>
+              <th scope="col" width="15%">
+                Time
+              </th>
+              <th scope="col" width="12%">
+                Activity Type
+              </th>
+              <th scope="col" width="13%">
+                Activity Name
+              </th>
+              <th scope="col" width="60%">
+                Activity Description
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <xsl:for-each select="activity_log/Activity">
+              <xsl:sort order ="descending" select="TimeStamp"/>
+              <xsl:choose>
+                <xsl:when test="activity_type='Error'">
+                  <tr >
+                    <td class="Error">
+                      <xsl:value-of select="TimeStamp"/>
+                    </td>
+                    <td class="Error">
+                      <xsl:value-of select="activity_type"/>
+                    </td>
+                    <td class="Error">
+                      <xsl:value-of select="activity_name"/>
+                    </td>
+                    <td class="Error_desc">
+                      <xsl:value-of select="activity_Description"/>
+                    </td>
+
+                  </tr>
+                </xsl:when>
+                <xsl:when test="activity_type='Information'">
+                  <tr >
+                    <td class="Info">
+                      <xsl:value-of select="TimeStamp"/>
+                    </td>
+                    <td class="Info">
+                      <xsl:value-of select="activity_type"/>
+                    </td>
+                    <td class="Info">
+                      <xsl:value-of select="activity_name"/>
+                    </td>
+                    <td class="Info_desc">
+                      <xsl:value-of select="activity_Description"/>
+                    </td>
+
+                  </tr>
+                </xsl:when>
+                <xsl:when test="activity_type='Success'">
+                  <tr >
+                    <td class="Success">
+                      <xsl:value-of select="TimeStamp"/>
+                    </td>
+                    <td class="Success">
+                      <xsl:value-of select="activity_type"/>
+                    </td>
+                    <td class="Success">
+                      <xsl:value-of select="activity_name"/>
+                    </td>
+                    <td class="Success_desc">
+                      <xsl:value-of select="activity_Description"/>
+                    </td>
+
+                  </tr>
+                </xsl:when>
+                <xsl:otherwise>
+                  <tr >
+                    <td>
+                      <xsl:value-of select="TimeStamp"/>
+                    </td>
+                    <td>
+                      <xsl:value-of select="activity_type"/>
+                    </td>
+                    <td>
+                      <xsl:value-of select="activity_name"/>
+                    </td>
+                    <td class="desc1">
+                      <xsl:value-of select="activity_Description"/>
+                    </td>
+
+
+                  </tr>
+                </xsl:otherwise>
+              </xsl:choose>
+
+            </xsl:for-each>
+          </tbody>
+        </table>
+        </div>
+      </body>
+    </html>
+
+
+
+
+
+  </xsl:template>
+</xsl:stylesheet>
